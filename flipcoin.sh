@@ -1,2 +1,9 @@
-#welcom to the second filp coin problem by shell script
+#!/bin/bash -x
+flip=$((RANDOM%2))
+if (( $flip==1 ))
+then
+	echo "head"
+else
+	echo "tails"
+fi
 
